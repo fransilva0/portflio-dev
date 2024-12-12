@@ -77,10 +77,11 @@
 
 main {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
 }
 
-.about-me {
+#about-me{
     display: flex;
     justify-content: center;
     padding: 1rem;
@@ -88,27 +89,142 @@ main {
     width: 60%;
 }
 
-.about-me-texts {
+.certificates {
+    padding: 1rem;
+    margin-top: 8rem;
+    width: 60%;
+    align-items: center;
+    text-align: center;
+}
+
+.about-me-texts, .certificates-texts {
     margin: 0 1rem;
 }
 
-.about-me img {
+#about-me img {
     width: 30rem;
     border-radius: 2rem 0 2rem 0;
 }
 
-.about-me h2 {
+#about-me h2, .certificates-texts h2 {
     font-size: 2rem;
     font-weight: 600;
     margin-bottom: 2rem;
 
 }
-.about-me p {
+
+#about-me p, .certificates-texts p {
     font-weight: 200;
     margin-bottom: 2rem;
     line-height: 1.5rem;
 }
 
+.certificates-texts p {
+    text-align: center;
+}
+
 .about-me-buttons a {
     margin-right: 1rem;
 }
+
+.carousel-container {
+    width: 80%;
+    margin: auto;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: var(--lx-gap);
+  
+    .carousel {
+      aspect-ratio: 16/9;
+      width: 100%;
+      position: relative;
+      overflow: hidden;
+  
+      .item {
+        opacity: 0;
+        width: 100%;
+        height: 100%;
+        display: none;
+        transition: opacity 0.5s ease-in-out;
+  
+        img {
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+          object-position: center;
+        }
+  
+        .caption {
+          width: 100%;
+          padding: var(--lx-space-01);
+          position: absolute;
+          bottom: 0;
+          text-transform: uppercase;
+          text-align: center;
+          font-size: 12px;
+          background-color: rgba(0, 0, 0, 0.5);
+        }
+  
+        &.active {
+          opacity: 1;
+          display: block;
+        }
+      }
+    }
+  
+    .btn {
+      position: absolute;
+      transform: translateY(-50%);
+      top: 50%;
+      outline: none;
+      border: none;
+      border-radius: 2rem;
+      cursor: pointer;
+      text-transform: uppercase;
+      font-size: 1.5rem;
+      font-weight: 900;
+      color: var(--clear-color2);
+      background: transparent;
+      transition: transform 0.2s ease-in-out;
+  
+      &:active,
+      &:focus {
+        transform: translateY(-50%) scale(0.9);
+      }
+  
+      &:hover {
+        transform: translateY(-50%) scale(0.96);
+      }
+    }
+  
+    .prev {
+      left: -5%;
+    }
+  
+    .next {
+      right: -5%;
+    }
+  
+    .dots {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      margin-top: 0.5rem;
+  
+      .dot {
+        cursor: pointer;
+        height: 10px;
+        width: 10px;
+        background-color: var(--clear-color2);
+        transition: background-color 0.2s ease;
+  
+        &.active,
+        &:hover {
+          background-color: var(--clear-color);
+        }
+      }
+    }
+  }
+  

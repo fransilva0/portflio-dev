@@ -16,7 +16,7 @@
         <h2>Francileudo Oliveira</h2>
         <ul>
           <li>
-            <a href="">Sobre</a>
+            <a href="#about-me">Sobre</a>
           </li>
           <li>
             <a href="">Serviços</a>
@@ -33,15 +33,15 @@
         </ul>
       </nav>
       <section class="header_highlight">
-        <img class="header_highlight_image" src="images/perfil_pixel.png" alt="imagem de Francileudo em pixel art" />
+        <img class="header_highlight_image" src="./src/images/perfil_pixel.png" alt="imagem de Francileudo em pixel art" />
         <h1>Francileudo Oliveira</h1>
         <p>Desenvolvedor FullStack<span>|</span></p>
         <a href="" class="style-button">PORTFÓLIO</a>
       </section>
     </header>
     <main>
-        <section class="about-me">
-            <img src="images/perfil_real.jpg" alt="imagem de Francileudo">
+        <section id="about-me">
+            <img src="src/images/perfil_real.jpg" alt="imagem de Francileudo">
             <div class="about-me-texts">
                 <h2>Sobre Mim</h2>
                 <p>
@@ -56,9 +56,36 @@
                 </div>
             </div>
         </section>
+
+        <section class="certificates">
+          <div class="certificates-texts">
+            <h2>Certificados</h2>
+            <p>
+              Ao longo da minha trajetória profissional, 
+              adquiri uma série de certificações que comprovam meu compromisso com o desenvolvimento contínuo e minha habilidade em diversas áreas.
+              Cada certificado é um reflexo do esforço e dedicação em aprimorar meus conhecimentos e habilidades, sempre buscando estar na vanguarda 
+              das melhores práticas do setor.
+            </p>
+          </div>
+          <div>
+            <div class="carousel-container">
+              <div class="carousel">
+                <div class="item active">
+                  <img src="./src/certificados/Certificado.png" alt="Image 1" />
+                </div>
+                <div class="item">
+                  <img src="./src/certificados/Certificado2.png" alt="Image 2" />
+                </div>
+              </div>
+              <button class="btn prev">&#10094;</button>
+              <button class="btn next">&#10095;</button>
+              <div class="dots"></div>
+            </div>
+        </section>
     </main>
     <footer class="footer">
   
     </footer>
+    <script src="./js/index.js"></script>
 </body>
 </html>

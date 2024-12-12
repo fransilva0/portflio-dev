@@ -69,5 +69,6 @@ body {
   	font-family: var(--font);
 	background-color: var(--background-color);
 	color: var(--white);
+	height: 100vh;
 
 }
