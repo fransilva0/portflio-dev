@@ -106,14 +106,14 @@ main {
     border-radius: 2rem 0 2rem 0;
 }
 
-#about-me h2, .certificates-texts h2 {
+#about-me h2, .certificates-texts h2, #services h2 {
     font-size: 2rem;
     font-weight: 600;
     margin-bottom: 2rem;
 
 }
 
-#about-me p, .certificates-texts p {
+#about-me p, .certificates-texts p, #services ul li p {
     font-weight: 200;
     margin-bottom: 2rem;
     line-height: 1.5rem;
@@ -227,4 +227,52 @@ main {
       }
     }
   }
+
+#services {
+    padding: 1rem;
+    margin-top: 8rem;
+    width: 60%;
+    align-items: center;
+}
+
+#services h2 {
+    text-align: center;
+}
+
+  #services ul {
+    display: flex;
+    justify-content: center;
+  }
+
+  #services ul li {
+    margin: 3rem;
+    padding: 1rem;
+    background: var(--secondary-color);
+  }
   
+  .hugeicons--developer {
+    display: inline-block;
+    width: 4rem;
+    height: 4rem;
+    margin-bottom: 1rem;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cg fill='none' stroke='%23778DA9' stroke-linecap='round' stroke-linejoin='round' stroke-width='1.5' color='%23778DA9'%3E%3Cpath d='M15.175 22v-1.009A1.007 1.007 0 0 1 16.18 20h.075c1.432-.012 2.662-1.006 2.954-2.388l.01-.052l.52-2.56l.94-.464c.505-.248.756-.373.81-.6c.055-.228-.114-.45-.451-.895l-1.908-2.508c-.19-.25-.285-.374-.335-.506s-.067-.32-.098-.693C18.353 5.227 14.865 2 10.612 2C6.132 2 2.5 5.582 2.5 10c0 2.75 1.407 5.175 3.55 6.615m0 0V22m0-5.385a8 8 0 0 0 2.027.987'/%3E%3Cpath d='m14 9l.92.793c.387.333.58.5.58.707s-.193.374-.58.707L14 12M7 9l-.92.793c-.387.333-.58.5-.58.707s.193.374.58.707L7 12m4.5-4l-2 5'/%3E%3C/g%3E%3C/svg%3E");
+  }
+
+  .ph--desktop-light {
+    display: inline-block;
+    width: 4rem;
+    height: 4rem;
+    margin-bottom: 1rem;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 256 256'%3E%3Cpath fill='%23778DA9' d='M208 42H48a22 22 0 0 0-22 22v112a22 22 0 0 0 22 22h74v20H96a6 6 0 0 0 0 12h64a6 6 0 0 0 0-12h-26v-20h74a22 22 0 0 0 22-22V64a22 22 0 0 0-22-22M48 54h160a10 10 0 0 1 10 10v82H38V64a10 10 0 0 1 10-10m160 132H48a10 10 0 0 1-10-10v-18h180v18a10 10 0 0 1-10 10'/%3E%3C/svg%3E");
+  }
+
+  #services ul li div {
+    background: var(--clear-color); 
+    border-radius: 2rem 0 2rem 0;
+    margin-bottom: 2rem;
+
+  }
