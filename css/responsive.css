@@ -1,0 +1,336 @@
+/* Dispositivos móveis: 320px — 480px */
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+
+    .navbar {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .navbar ul li {
+        margin: 0.5rem;
+    }
+
+    .navbar ul li a {
+        font-size: 0.9rem;
+    }
+
+    .header_highlight h1 {
+        font-size: 1.5rem;
+    }
+
+    .header_highlight p {
+        font-size: 1rem;
+    }
+
+    #about-me {
+        flex-direction: column;
+    }
+
+    #about-me img {
+        width: 15rem;
+        height: 15rem;
+        margin-bottom: 2rem;
+    }
+
+    .about-me-buttons {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .header_highlight_image {
+        width: 10rem;
+    }
+
+    .contact-section {
+        display: flex;
+        flex-direction: column;
+        padding: 1rem;
+      }
+
+    .contact-section-image {
+        display: none;
+    }
+
+    #services {
+        width: 90%;
+    }
+
+    #services ul {
+        flex-direction: column;
+    }
+
+    .carousel-container {
+        width: 100%;
+    }
+
+    .skills-list {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    } 
+      
+    .skills-list li img {
+      width: 5rem;
+      height: 5rem;
+    }
+
+    .ic--baseline-whatsapp::after {
+        width: 2rem;
+        height: 2rem;
+      }
+      
+      .ic--baseline-email::after {
+        width: 2rem;
+        height: 2rem;
+      }
+      
+      .mdi--linkedin::after {
+        width: 2rem;
+        height: 2rem;
+      }
+      
+      .mdi--instagram::after {
+        width: 2rem;
+        height: 2rem;
+      }
+
+      .footer {
+        flex-direction: column-reverse;
+      }
+
+      .footer p {
+        font-size: 0.7rem;
+        margin-bottom: 1rem;
+      }
+
+      .footer ul li {
+        margin-left: 0.5rem;
+      }
+}
+
+/* iPads, tablets: 481px — 768px */
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+
+    .navbar {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .navbar ul li {
+        margin: 0.5rem;
+    }
+
+    .navbar ul li a {
+        font-size: 0.9rem;
+    }
+
+    .header_highlight h1 {
+        font-size: 1.5rem;
+    }
+
+    .header_highlight p {
+        font-size: 1rem;
+    }
+
+    #about-me {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #about-me img {
+        width: 15rem;
+        height: 15rem;
+        margin-bottom: 2rem;
+    }
+
+    .about-me-buttons {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .header_highlight_image {
+        width: 10rem;
+    }
+
+    .contact-section {
+        display: flex;
+        flex-direction: column;
+        padding: 1rem;
+      }
+
+    .contact-section-image {
+        display: none;
+    }
+
+    #services {
+        width: 90%;
+    }
+
+    #services ul {
+        flex-direction: column;
+    }
+
+    .carousel-container {
+        width: 100%;
+    }
+
+    .skills-list {
+        grid-template-columns: 50% 50%;
+    } 
+      
+    .skills-list li img {
+      width: 5rem;
+      height: 5rem;
+    }
+
+    .ic--baseline-whatsapp::after {
+        width: 2rem;
+        height: 2rem;
+      }
+      
+      .ic--baseline-email::after {
+        width: 2rem;
+        height: 2rem;
+      }
+      
+      .mdi--linkedin::after {
+        width: 2rem;
+        height: 2rem;
+      }
+      
+      .mdi--instagram::after {
+        width: 2rem;
+        height: 2rem;
+      }
+
+      .footer {
+        flex-direction: column-reverse;
+      }
+
+      .footer p {
+        font-size: 0.7rem;
+        margin-bottom: 1rem;
+      }
+
+      .footer ul li {
+        margin-left: 0.5rem;
+      }
+    
+}
+
+/* Telas pequenas, laptops: 769px — 1024px */
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+
+    .header_highlight h1 {
+        font-size: 1.5rem;
+    }
+
+    .header_highlight p {
+        font-size: 1rem;
+    }
+
+    #about-me {
+        width: 90%;
+    }
+
+    #about-me img {
+        width: 15rem;
+        height: 15rem;
+        margin-bottom: 2rem;
+    }
+
+    .header_highlight_image {
+        width: 10rem;
+    }
+
+    #services {
+        width: 90%;
+    }
+
+    #services ul {
+        flex-direction: column;
+    }
+
+    .carousel-container {
+        width: 100%;
+    }
+
+    #contact p {
+        padding: 1rem;
+    }
+      
+    .skills-list li img {
+      width: 5rem;
+      height: 5rem;
+    }
+
+    .ic--baseline-whatsapp::after {
+        width: 2rem;
+        height: 2rem;
+      }
+      
+      .ic--baseline-email::after {
+        width: 2rem;
+        height: 2rem;
+      }
+      
+      .mdi--linkedin::after {
+        width: 2rem;
+        height: 2rem;
+      }
+      
+      .mdi--instagram::after {
+        width: 2rem;
+        height: 2rem;
+      }
+
+      .footer p {
+        font-size: 0.7rem;
+        margin-bottom: 1rem;
+      }
+
+      .footer ul li {
+        margin-left: 0.5rem;
+      }
+    
+}
+
+/* Desktops, telas grandes: 1025px — 1200px */
+@media only screen and (min-width: 1025px) and (max-width: 1200px) {
+
+    .header_highlight h1 {
+        font-size: 1.5rem;
+    }
+
+    .header_highlight p {
+        font-size: 1rem;
+    }
+
+    #about-me {
+        width: 70%;
+    }
+
+    #about-me img {
+        width: 15rem;
+        height: 15rem;
+        margin-bottom: 2rem;
+    }
+
+    .header_highlight_image {
+        width: 10rem;
+    }
+
+    #services {
+        width: 90%;
+    }
+
+    #contact p {
+        padding: 1rem;
+    }
+      
+    .skills-list li img {
+      width: 5rem;
+      height: 5rem;
+    }
+    
+}
