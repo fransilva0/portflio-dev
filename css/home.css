@@ -89,7 +89,7 @@ main {
     width: 60%;
 }
 
-.certificates {
+.certificates, .skills {
     padding: 1rem;
     margin-top: 8rem;
     width: 60%;
@@ -106,14 +106,14 @@ main {
     border-radius: 2rem 0 2rem 0;
 }
 
-#about-me h2, .certificates-texts h2, #services h2 {
+#about-me h2, .certificates-texts h2, #services h2, #portfolio h2, .skills h2 {
     font-size: 2rem;
     font-weight: 600;
     margin-bottom: 2rem;
 
 }
 
-#about-me p, .certificates-texts p, #services ul li p {
+#about-me p, .certificates-texts p, #services ul li p, .skills p {
     font-weight: 200;
     margin-bottom: 2rem;
     line-height: 1.5rem;
@@ -275,4 +275,19 @@ main {
     border-radius: 2rem 0 2rem 0;
     margin-bottom: 2rem;
 
+  }
+
+  .skills-list {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    margin: 1rem;
+  } 
+
+  .skills-list li {
+    align-items: center;
+  }
+
+  .skills-list li img {
+    width: 10rem;
+    height: 10rem;
   }
