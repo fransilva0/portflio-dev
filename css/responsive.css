@@ -59,10 +59,6 @@
         flex-direction: column;
     }
 
-    .carousel-container {
-        width: 100%;
-    }
-
     .skills-list {
         display: flex;
         flex-direction: column;
@@ -170,10 +166,6 @@
         flex-direction: column;
     }
 
-    .carousel-container {
-        width: 100%;
-    }
-
     .skills-list {
         grid-template-columns: 50% 50%;
     } 
@@ -249,10 +241,6 @@
 
     #services ul {
         flex-direction: column;
-    }
-
-    .carousel-container {
-        width: 100%;
     }
 
     #contact p {
