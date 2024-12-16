@@ -22,11 +22,11 @@
         font-size: 1rem;
     }
 
-    #about-me {
+    #about-me, .certificate {
         flex-direction: column;
     }
 
-    #about-me img {
+    #about-me img, .certificates-infos img  {
         width: 15rem;
         height: 15rem;
         margin-bottom: 2rem;
@@ -57,23 +57,6 @@
 
     #services ul {
         flex-direction: column;
-    }
-
-    .carousel-container { 
-      gap: var(--lx-smallest-gap); 
-    } 
-    
-    .btn { 
-      font-size: 0.8rem; 
-    } 
-
-    .dots { 
-      gap: 5px; 
-    } 
-
-    .dot { 
-      height: 8px; 
-      width: 8px; 
     }
 
     .skills-list {
@@ -145,12 +128,12 @@
         font-size: 1rem;
     }
 
-    #about-me {
+    #about-me, .certificate {
         flex-direction: column;
         align-items: center;
     }
 
-    #about-me img {
+    #about-me img, .certificates-infos img  {
         width: 15rem;
         height: 15rem;
         margin-bottom: 2rem;
@@ -181,28 +164,6 @@
 
     #services ul {
         flex-direction: column;
-    }
-
-    .carousel-container { 
-      width: 100%; 
-      gap: var(--lx-small-gap); 
-    } 
-    
-    .carousel { 
-      aspect-ratio: 4/3;
-    } 
-    
-    .btn { 
-      font-size: 1rem; 
-      top: 50%; 
-      left: 5%; 
-      right: 5%; 
-      width: auto; 
-    } 
-    
-    .prev, .next { 
-      left: 0; 
-      right: 0; 
     }
 
     .skills-list {
@@ -260,11 +221,11 @@
         font-size: 1rem;
     }
 
-    #about-me {
+    #about-me, #services {
         width: 90%;
     }
 
-    #about-me img {
+    #about-me img, .certificates-infos img  {
         width: 15rem;
         height: 15rem;
         margin-bottom: 2rem;
@@ -272,10 +233,6 @@
 
     .header_highlight_image {
         width: 10rem;
-    }
-
-    #services {
-        width: 90%;
     }
 
     #services ul {
@@ -337,7 +294,7 @@
         width: 70%;
     }
 
-    #about-me img {
+    #about-me img, .certificates-infos img  {
         width: 15rem;
         height: 15rem;
         margin-bottom: 2rem;

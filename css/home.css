@@ -101,7 +101,7 @@ main {
     margin: 0 1rem;
 }
 
-#about-me img {
+#about-me img, .certificates-infos img {
     width: 30rem;
     border-radius: 2rem 0 2rem 0;
 }
@@ -127,7 +127,24 @@ main {
     margin-right: 1rem;
 }
 
-.carousel-container {
+.certificate {
+  display: flex;
+  align-items: center;
+}
+
+.certificate h3 {
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+
+.certificates-infos p {
+  text-align: left;
+  line-height: 1.5rem;
+  font-weight: 200;
+  margin-left: 1rem;
+}
+
+/* .carousel-container {
     width: 100%;
     margin: auto;
     position: relative;
@@ -226,7 +243,7 @@ main {
         }
       }
     }
-  }
+  } */
 
 #services {
 padding: 1rem;

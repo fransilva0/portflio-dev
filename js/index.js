@@ -1,4 +1,4 @@
-document.addEventListener("DOMContentLoaded", function () {
+/* document.addEventListener("DOMContentLoaded", function () {
     let carousel = document.querySelector(".carousel");
     let items = carousel.querySelectorAll(".item");
     let dotsContainer = document.querySelector(".dots");
@@ -48,7 +48,7 @@ document.addEventListener("DOMContentLoaded", function () {
         showItem(index);
       });
     });
-  });
+  }); */
 
 /* scroll to top button */
 
