@@ -24,7 +24,7 @@
           dots[idx].classList.add("active");
         }
       });
-    }
+    } 
   
     // Event listeners for buttons
     document.querySelector(".prev").addEventListener("click", () => {
@@ -61,3 +61,4 @@ window.onscroll = function() {
   }
 };
   
+function scrollToTop() { window.scrollTo({ top: 0, behavior: 'smooth' });}

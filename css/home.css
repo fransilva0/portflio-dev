@@ -101,7 +101,7 @@ main {
     margin: 0 1rem;
 }
 
-#about-me img, .certificates-infos img {
+#about-me img {
     width: 30rem;
     border-radius: 2rem 0 2rem 0;
 }
@@ -130,6 +130,10 @@ main {
 .certificate {
   display: flex;
   align-items: center;
+}
+
+.certificates-infos img {
+  width: 30rem;
 }
 
 .certificate h3 {
