@@ -61,11 +61,3 @@ window.onscroll = function() {
   }
 };
   
-function scrollToTop() { window.scrollTo({ top: 0, behavior: 'smooth' });}
-
-/* Scroll Reveal */
-
-const sr = ScrollReveal(); 
-
-sr.reveal('.header_highlight, #about-me, .certificates, #services, .skills, #contact', 
-  { origin: 'bottom', distance: '50px', duration: 1000, reset: false });
