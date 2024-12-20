@@ -26,50 +26,62 @@
         flex-direction: column;
     }
 
-    #about-me img, .certificates-infos img  {
+    #about-me img, .certificates-infos img {
         width: 15rem;
         height: 15rem;
         margin-bottom: 2rem;
     }
 
-    .about-me-buttons {
-        display: flex;
-        flex-direction: column;
+    
+    .about-me-buttons, .project, .project-buttons {
+      display: flex;
+      flex-direction: column;
     }
-
+    
     .header_highlight_image {
-        width: 10rem;
+      width: 10rem;
     }
-
+    
     .contact-section {
-        display: flex;
-        flex-direction: column;
-        padding: 1rem;
-      }
-
+      display: flex;
+      flex-direction: column;
+      padding: 1rem;
+    }
+    
     .contact-section-image {
-        display: none;
+      display: none;
     }
-
+    
     #services {
-        width: 90%;
+      width: 90%;
     }
-
+    
     #services ul {
-        flex-direction: column;
+      flex-direction: column;
     }
 
+    .project img {
+      width: 15rem;
+      margin-bottom: 2rem;
+      margin-right: 0;
+    }
+
+    .project-texts ul {
+      display: grid;
+      grid-template-columns: 50% 50%;
+    }
+    
     .skills-list {
-        display: flex;
-        flex-direction: column;
-        text-align: center;
+      display: flex;
+      flex-direction: column;
+      text-align: center;
     } 
-      
+    
     .skills-list li img {
       width: 5rem;
       height: 5rem;
     }
-
+    
     .ic--baseline-whatsapp::after {
         width: 2rem;
         height: 2rem;

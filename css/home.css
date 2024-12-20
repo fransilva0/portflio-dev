@@ -68,6 +68,7 @@
     font-weight: 600;
     transition: 0.5s;
     background-size: 200% auto;
+    text-transform: uppercase;
 
     &:hover {
         background-position: right center; 
@@ -113,7 +114,7 @@ main {
 
 }
 
-#about-me p, .certificates-texts p, #services ul li p, .skills p, #contact p {
+#about-me p, .certificates-texts p, #services ul li p, .skills p, #contact p, .project-texts p {
     font-weight: 200;
     margin-bottom: 2rem;
     line-height: 1.5rem;
@@ -123,11 +124,11 @@ main {
     text-align: center;
 }
 
-.about-me-buttons a {
+.about-me-buttons a, .project-buttons a {
     margin-right: 1rem;
 }
 
-.certificate {
+.certificate, .project {
   display: flex;
   align-items: center;
 }
@@ -141,7 +142,7 @@ main {
   margin-bottom: 1rem;
 }
 
-.certificates-infos p {
+.certificates-infos p, .project-texts p {
   text-align: left;
   line-height: 1.5rem;
   font-weight: 200;
@@ -269,6 +270,48 @@ align-items: center;
   margin: 3rem;
   padding: 1rem;
   background: var(--secondary-color);
+}
+
+#portfolio {
+  padding: 1rem;
+  margin-top: 8rem;
+  width: 80%;
+  align-items: center;
+  text-align: center;
+}
+
+.project img {
+  width: 60%;
+  margin-right: 2rem;
+}
+
+.project-texts {
+  margin-left: 1rem;
+}
+
+.project-texts h3 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  text-align: left;
+}
+
+.project-texts p {
+  margin-left: 0;
+}
+
+.project-texts ul {
+  display: flex;
+}
+
+.project-texts ul li {
+  margin: 1rem 1rem 1rem 0;
+  padding: 0.5rem;
+  background: var(--clear-color2);
+  border-radius: 2rem;
+}
+
+.project-buttons {
+  text-align: left;
 }
   
 .hugeicons--developer {
